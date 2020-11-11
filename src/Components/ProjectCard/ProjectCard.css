@@ -1,0 +1,29 @@
+.projectcard{
+    padding: 20px;
+    background: #1A1A1A;
+    box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 25px;
+}
+.projectcard p{
+    color: #8f8f8f;
+    margin-bottom: 20px;
+}
+.projectcard button{
+    background-color: #272727;
+    border: solid 1px #272727;
+    border-radius: 15px;
+    margin-top: 20px;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    line-height: 6px;
+    letter-spacing: 1px;
+}
+.projectcard button:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #272727;    
+}
+.mb{
+    margin-bottom: 8%;
+}
