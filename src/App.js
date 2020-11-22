@@ -6,13 +6,18 @@ import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
 import Blog from './Components/Blog/Blog';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Route,
+} from "react-router-dom";
+
 
 class App extends Component{
   
   constructor(){
     super();
     this.state = {
-      currWindow: "HOME"
+      currWindow : ""
     }
   }
 
@@ -22,30 +27,27 @@ class App extends Component{
 
   render(){
     return (
-      <div>
-        <Navigation onWindowChange={this.onWindowChange} active={ this.state.currWindow } navitems={["HOME", "ABOUT", "PROJECTS", "BLOG", "CONTACT"]}/>
-        {
-          this.state.currWindow === "HOME"? <Home onWindowChange = {this.onWindowChange}/>
-          : 
-          (
-            this.state.currWindow === "ABOUT"?
-            <About />
-            :
-            (
-              this.state.currWindow === "PROJECTS"?
-              <Projects />
-              :
-              (
-                this.state.currWindow === "BLOG"?
-                <Blog/>
-                :<div></div>
-                
-              )
-            )
-          )
-        }
-        <Footer />
-      </div>
+      <Router>
+        <div>
+          <Navigation navitems={["HOME", "ABOUT", "PROJECTS", "BLOG", "CONTACT"]} active={ this.state.currWindow }/>
+          <Route exact path="/ABOUT">
+            <About onWindowChange={ this.onWindowChange }/>
+          </Route>
+          <Route exact path="/">
+            <Home onWindowChange={ this.onWindowChange }/>
+          </Route>
+          <Route exact path="/HOME">
+            <Home onWindowChange={ this.onWindowChange }/>
+          </Route>
+          <Route exact path="/PROJECTS">
+            <Projects onWindowChange={ this.onWindowChange }/>
+          </Route>
+          <Route exact path="/BLOG">
+            <Blog onWindowChange={ this.onWindowChange }/>
+          </Route>
+          <Footer />
+        </div>
+      </Router>
     ); 
   }
 }

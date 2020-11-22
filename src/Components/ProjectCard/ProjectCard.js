@@ -11,7 +11,7 @@ const ProjectCard = ({ title, info, btntxt, btnlink}) => {
                     return <p>{ line }</p>
                     })
                 }
-                <a href={ btnlink } role="button">
+                <a href={ btnlink } role="button" target="_blank" rel="noopener noreferrer">
                     <button>{ btntxt }</button>
                 </a>
             </div>

@@ -11,13 +11,13 @@ const Footer = () => {
             <div className="footer">
                 <p className="data">© 2020 Harsha</p>
                 <div className="icons">
-                    <a href="https://github.com/Rage-ops">
+                    <a href="https://github.com/Rage-ops" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} className="contact-icons data"/>
                     </a>
-                    <a href="https://www.linkedin.com/in/harshavardhan-samudrala/">
+                    <a href="https://www.linkedin.com/in/harshavardhan-samudrala/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} className="contact-icons data"/>
                     </a>
-                    <a href="https://dev.to/rageops">
+                    <a href="https://dev.to/rageops" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faDev} className="contact-icons data"/>
                     </a>
                 </div>

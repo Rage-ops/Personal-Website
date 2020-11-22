@@ -24,6 +24,9 @@
     background-color: rgba(255, 255, 255, 0.8);
     color: #272727;    
 }
+.projectcard button:focus{
+    outline: 0;
+}
 .mb{
     margin-bottom: 8%;
 }

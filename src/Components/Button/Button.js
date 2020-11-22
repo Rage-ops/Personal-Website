@@ -3,8 +3,8 @@ import './Button.css';
 
 const Button = ( { link, btnData, btnColor }) => {
     return(
-        <a 
-        href={ link }
+        <a
+        href= { link }
         role="button"
         className={`btn ${ btnColor }`}>
         { btnData }

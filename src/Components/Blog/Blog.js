@@ -1,10 +1,16 @@
 import React from 'react';
 
-const Blog = () => {
-    return(
-        <div>
+class Blog extends React.Component{
 
-        </div>
-    )
+    componentDidMount(){
+        this.props.onWindowChange("BLOG");
+    }
+
+    render(){
+        return(
+            <div>
+            </div>
+        )
+    }
 }
 export default Blog;

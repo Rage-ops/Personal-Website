@@ -30,7 +30,7 @@
 }
 
 .active{
-    border-bottom: 1px solid transparent;
+    border-bottom: 3px solid transparent;
     border-image: linear-gradient(.25turn, rgb(255,255,255, 0.7), #0a0b0b);
     border-image-slice: 1 1 1 1;
 }
@@ -39,14 +39,14 @@
     padding-bottom: 5px;
     content: '';
     display: block;
-    border-bottom: 1px solid transparent;
+    border-bottom: 3px solid transparent;
     border-image: linear-gradient(.25turn, rgb(255,255,255, 0.7), #0a0b0b);
     border-image-slice: 1 1 1 1;
     width: 0;
     position: absolute;
     left: 0;
-    -webkit-transition: 0.2s ease;
-    transition: 0.2s ease;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
 }
 
 .nav-item a:hover:after { 
