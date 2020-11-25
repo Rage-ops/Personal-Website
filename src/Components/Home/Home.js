@@ -14,7 +14,7 @@ class Home extends React.Component{
                 <h1 className="header-txt">
                 Hi, I'm Harsha! <span className="wave">👋🏻 </span>
                 </h1>
-                <h2 className="header-description">A developer who's keen on learning something new everyday.</h2>
+                <h2 className="header-description code">A developer who's keen on learning something new everyday.</h2>
                 <span className="home-btn">
                     <Button link={"ABOUT"} btnData={"Know more ↗"} btnColor={"btn-dark"}/>
                 </span>

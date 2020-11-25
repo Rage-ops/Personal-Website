@@ -18,7 +18,7 @@ const Navigation = ( { navitems, active}) => {
                             :
                             (
                                 value === active ?
-                                <li className="nav-item active">
+                                <li className="nav-item-active">
                                     <Link to={ value } className="nav-link">{ value }</Link>
                                 </li>
                                 :

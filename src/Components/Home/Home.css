@@ -1,20 +1,20 @@
 .header{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
     padding-left: 13%;
     padding-right: 13%;
 }
 .header-txt{
     margin-bottom: 5px;
-    font-size: 4.5rem;
-    font-weight: 300;
+    font-size: 4rem;
+    font-weight: 200;
 }
 .header-description{
     margin: 0;
     margin-bottom: 50px;
-    font-size: 1.3rem;
-    font-weight: 300;
-    opacity: .8;
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: #8f8f8f
 }
 .home-btn{
     margin-right: 15px;
@@ -25,7 +25,7 @@
     /* Refers to the name of your @keyframes element below */
     animation-duration: 2.5s;
     /* Change to speed up or slow down */
-    animation-iteration-count: infinite;  
+    /* animation-iteration-count: infinite;   */
     transform-origin: 70% 70%;
     /* Pivot around the bottom-left palm */
     display: inline-block;

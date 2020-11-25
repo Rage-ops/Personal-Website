@@ -1,6 +1,6 @@
 .navbar{
     background-color: #0a0b0b;
-    padding: 5px;
+    padding: 2px 1px 1px 1px;
 }
 
 .nav-content{
@@ -29,8 +29,12 @@
     text-decoration: none;
 }
 
-.active{
-    border-bottom: 3px solid transparent;
+.nav-item-active{
+    padding-bottom: 5px;
+    padding-left: 0;
+    list-style-type: none;
+    position: relative;
+    border-bottom: 2px solid transparent;
     border-image: linear-gradient(.25turn, rgb(255,255,255, 0.7), #0a0b0b);
     border-image-slice: 1 1 1 1;
 }
@@ -39,7 +43,7 @@
     padding-bottom: 5px;
     content: '';
     display: block;
-    border-bottom: 3px solid transparent;
+    border-bottom: 2px solid transparent;
     border-image: linear-gradient(.25turn, rgb(255,255,255, 0.7), #0a0b0b);
     border-image-slice: 1 1 1 1;
     width: 0;

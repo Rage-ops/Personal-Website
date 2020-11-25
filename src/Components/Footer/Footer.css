@@ -1,6 +1,6 @@
 footer{
     background-color: #0a0b0b;
-    padding: 5px;
+    padding: 2px 1px 1px 1px;
 }
 .footer{
     padding-left: 13%;
@@ -22,5 +22,5 @@ footer{
     margin-right: 20px;
 }
 .contact-icons:hover{
-    color: gray;
+    color:#8f8f8f;
 }

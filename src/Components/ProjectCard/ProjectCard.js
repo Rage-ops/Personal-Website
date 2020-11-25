@@ -4,17 +4,17 @@ import "./ProjectCard.css"
 const ProjectCard = ({ title, info, btntxt, btnlink}) => {
     return(
         <div className="projectcard">
-            <div className="mb">
+            <div>
                 <h2>{title}</h2>
                 {
                     info.split("\n").map((line) => {
-                    return <p>{ line }</p>
+                    return <p className="code">{ line }</p>
                     })
                 }
-                <a href={ btnlink } role="button" target="_blank" rel="noopener noreferrer">
-                    <button>{ btntxt }</button>
-                </a>
             </div>
+            <a href={ btnlink } role="button" target="_blank" rel="noopener noreferrer">
+                    <button>{ btntxt }</button>
+            </a>
         </div>
     )
 }
