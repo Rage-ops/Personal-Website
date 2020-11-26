@@ -1,11 +1,10 @@
 .btn{
-    padding: 10px;
-    padding-top: 12px;
+    padding: 12px 10px 10px;
+    border: solid 1px #343a40;
     margin-right: 15px;
-    font-size: 1rem;
+    font-size: 16px;
     letter-spacing: 1px;
     text-decoration: none;
-    border: solid 1px #343a40;
     border-radius: 20px;
 }
 .btn-dark{
@@ -13,7 +12,7 @@
     color: #fff;
 }
 .btn-white{
-    background-color: rgba(255,255,255, 0.8);
+    background-color:#fff;
     color: #343a40;
 }
 .btn:hover{

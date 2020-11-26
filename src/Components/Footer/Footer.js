@@ -1,9 +1,9 @@
 import React from 'react';
-import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faDev } from '@fortawesome/free-brands-svg-icons';
+import './Footer.css';
 
 const Footer = () => {
     return (

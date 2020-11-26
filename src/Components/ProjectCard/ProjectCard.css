@@ -1,8 +1,8 @@
 .projectcard{
     padding: 20px;
     background: #1A1A1A;
-    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.05);
     border-radius: 25px;
 }
 .projectcard p{
@@ -12,10 +12,9 @@
 }
 .projectcard button{
     background-color: #272727;
-    border: solid 1px #272727;
-    border-radius: 15px;
+    border: solid 2px #272727;
+    border-radius: 20px;
     margin-top: 20px;
-    margin-bottom: 0;
     color: #fff;
     width: 100%;
     padding: 20px;
@@ -24,12 +23,9 @@
     font-family: "league-spartan";
 }
 .projectcard button:hover{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #fff;
     color: #272727;    
 }
 .projectcard button:focus{
     outline: 0;
-}
-.mb{
-    margin-bottom: 8%;
 }
