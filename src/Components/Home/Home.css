@@ -1,8 +1,8 @@
 .header{
     padding-left: 13%;
     padding-right: 13%;
-    padding-top: 33vh;
-    padding-bottom: 33vh;
+    /* padding-top: 33vh;
+    padding-bottom: 33vh; */
 }
 .header-txt{
     margin-bottom: 5px;
@@ -76,7 +76,7 @@
 }
 @media screen and (max-width: 500px){
     .header-txt{
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
     .header-description{
         font-size: 0.8rem;
