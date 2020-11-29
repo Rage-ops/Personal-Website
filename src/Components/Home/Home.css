@@ -1,5 +1,5 @@
 .header{
-    margin-top: 15%;
+    margin-top: 14%;
     margin-bottom: 15%;
     padding-left: 13%;
     padding-right: 13%;
@@ -11,7 +11,7 @@
 .header-description{
     margin: 0;
     margin-bottom: 50px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 200;
     color: #8f8f8f
 }
@@ -24,7 +24,7 @@
     /* Refers to the name of your @keyframes element below */
     animation-duration: 2.5s;
     /* Change to speed up or slow down */
-    /* animation-iteration-count: infinite;   */
+    animation-iteration-count: infinite;  
     transform-origin: 70% 70%;
     /* Pivot around the bottom-left palm */
     display: inline-block;
@@ -63,5 +63,42 @@
     /* Reset for the last half to pause */
     100% {
         transform: rotate(0.0deg)
+    }
+}
+
+@media screen and (max-width: 992px){
+    .header-txt{
+        font-size: 3.8rem;
+    }
+    .header-description{
+        font-size: 1.1rem;
+        margin-bottom: 45px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .header-txt{
+        font-size: 3.6rem;
+    }
+    .header-description{
+        font-size: 0.97rem;
+        margin-bottom: 42px;
+    }
+}
+@media screen and (max-width: 700px){
+    .header-txt{
+        font-size: 2.5rem;
+    }
+    .header-description{
+        font-size: 0.76rem;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 448px){
+    .header-txt{
+        font-size: 1.8rem;
+    }
+    .header-description{
+        font-size: 0.5rem;
     }
 }

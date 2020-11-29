@@ -1,8 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faDev } from '@fortawesome/free-brands-svg-icons';
+import {FaGithub,  FaLinkedinIn} from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
@@ -12,14 +9,14 @@ const Footer = () => {
                 <p className="data">© 2020 Harsha</p>
                 <div className="icons">
                     <a href="https://github.com/Rage-ops" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faGithub} className="contact-icons data"/>
+                        <FaGithub className="contact-icons data"/>
                     </a>
                     <a href="https://www.linkedin.com/in/harshavardhan-samudrala/" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faLinkedin} className="contact-icons data"/>
+                        <FaLinkedinIn className="data contact-icons"/>
                     </a>
-                    <a href="https://dev.to/rageops" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faDev} className="contact-icons data"/>
-                    </a>
+                    {/* <a href="https://dev.to/rageops" target="_blank" rel="noopener noreferrer">
+                        <FaDev className="data contact-icons"/>
+                    </a> */}
                 </div>
             </div>
         </footer>

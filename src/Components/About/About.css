@@ -16,3 +16,16 @@
     padding: 0 25%;
     width: 50%;
 }
+@media screen and (max-width: 992px){
+    .about-img{
+        padding: 0 24%;
+        width: 55%;
+    }
+
+}
+@media screen and (max-width: 700px){
+    .about-img{
+        padding: 0 22%;
+        width: 60%;
+    }
+}

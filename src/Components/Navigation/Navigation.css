@@ -1,5 +1,8 @@
 .navbar{
     background-color: #0a0b0b;
+    position: sticky;
+    top: 0;
+    z-index: 999;
     padding: 2px 1px 1px 1px;
 }
 
@@ -55,4 +58,16 @@
 
 .nav-item a:hover:after { 
     width: 100%; 
+}
+
+@media screen and (max-width: 992px){
+    .nav-link{
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 700px){
+    .nav-link{
+        font-size: 12px;
+    }
 }

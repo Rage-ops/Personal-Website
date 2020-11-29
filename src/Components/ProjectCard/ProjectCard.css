@@ -29,3 +29,19 @@
 .projectcard button:focus{
     outline: 0;
 }
+@media screen and (max-width: 992px){
+    .projectcard p{
+        font-size: 14px;
+    }
+    .projectcard button{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 700px){
+    .projectcard p{
+        font-size: 12px;
+    }
+    .projectcard button{
+        font-size: 12px;
+    }
+}

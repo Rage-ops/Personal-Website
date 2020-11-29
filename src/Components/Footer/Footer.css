@@ -24,3 +24,19 @@ footer{
 .contact-icons:hover{
     color:#8f8f8f;
 }
+@media screen and (max-width: 992px){
+    .data{
+        font-size: 14px;
+    }
+    .contact-icons{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 700px){
+    .data{
+        font-size: 12px;
+    }
+    .contact-icons{
+        font-size: 1.2rem;
+    }
+}
