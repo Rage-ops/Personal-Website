@@ -5,7 +5,6 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
 // import Blog from './Components/Blog/Blog';
-import FullHeight from "react-full-height";
 import {
   BrowserRouter as Router,
   Route,
@@ -29,7 +28,6 @@ class App extends Component{
     return (
       <Router>
         <div>
-          <FullHeight>
             <Navigation navitems={["HOME", "ABOUT", "PROJECTS", "CONTACT"]} active={ this.state.currWindow }/>
             <Route exact path="/ABOUT">
               <About onWindowChange={ this.onWindowChange }/>
@@ -47,7 +45,6 @@ class App extends Component{
               <Blog onWindowChange={ this.onWindowChange }/>
             </Route> */}
             <Footer />
-          </FullHeight>
         </div>
       </Router>
     ); 

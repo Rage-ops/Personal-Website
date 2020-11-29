@@ -76,3 +76,8 @@
         font-size: 10px;
     }
 }
+@media screen and (max-width: 300px){
+    .nav-link{
+        font-size: 8px;
+    }
+}

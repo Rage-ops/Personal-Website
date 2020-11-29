@@ -41,3 +41,19 @@ footer{
         font-size: 1.2rem;
     }
 }
+@media screen and (max-width: 360px){
+    .data{
+        font-size: 10px;
+    }
+    .contact-icons{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 300px){
+    .data{
+        font-size: 8px;
+    }
+    .contact-icons{
+        font-size: 0.9rem;
+    }
+}

@@ -3,6 +3,7 @@ import myimg from './myimg.png';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import './About.css';
 
+const aboutMe = "I'm a CS junior undergraduate based in India and just a 19 year old guy aspiring to become a full-stack developer. I enjoy solving DS and Algo problems and I always strive to write efficient code. I mostly learn from MOOCs.\n When I'm not coding, you'll find me working out in the gym or spending time with family."
 class About extends React.Component {
 
     componentDidMount(){
@@ -17,7 +18,7 @@ class About extends React.Component {
                 </div>
                 <div className="About-text">
                     <ProjectCard title={"ABOUT"} 
-                    info={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae erat elementum, faucibus augue eget, ultrices turpis. In fringilla, leo eget bibendum ornare, libero turpis tristique nisl, eget vehicula leo dui vel quam. \nOrci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."}
+                    info={aboutMe}
                     btntxt={"Check Work ↗"} btnlink="PROJECTS"/>
                 </div>
             </div>

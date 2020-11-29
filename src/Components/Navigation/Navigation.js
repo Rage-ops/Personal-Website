@@ -9,20 +9,20 @@ const Navigation = ( { navitems, active}) => {
         <nav className="navbar">
             <ul className="nav-content">
                 {
-                    navitems.map((value) => {
+                    navitems.map((value, index) => {
                         return (
                             value === "CONTACT"?
-                            <li className="nav-btn">
+                            <li className="nav-btn" key={ index }>
                                 <Button link={`mailto:harsha.sam23@gmail.com`} btnData={`Contact`} btnColor={`btn-white`}/>
                             </li>
                             :
                             (
                                 value === active ?
-                                <li className="nav-item-active">
+                                <li className="nav-item-active" key={ index }>
                                     <Link to={ value } className="nav-link">{ value }</Link>
                                 </li>
                                 :
-                                <li className="nav-item">
+                                <li className="nav-item" key={ index }>
                                     <Link to={ value } className="nav-link">{ value }</Link>
                                 </li>
                             )
