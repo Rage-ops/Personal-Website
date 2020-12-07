@@ -3,7 +3,7 @@ import myimg from './myimg.png';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import './About.css';
 
-const aboutMe = "I'm a CS junior undergraduate based in India and just a 19 year old guy aspiring to become a full-stack developer. I enjoy solving DS and Algo problems and I always strive to write efficient code. I mostly learn from MOOCs.\n When I'm not coding, you'll find me working out in the gym or spending time with family."
+const aboutMe = "Hi, I'm Harsha. \n I'm a Computer Science undergraduate and a 19 year old programmer aspiring to become a full-stack developer. \n I enjoy and always strive to write efficient and optimized computer programs by using necessary data structures and algorithms.\n I'm curious about almost everything 😅. When I'm not coding, you'll find me browsing or spending time with family."
 class About extends React.Component {
 
     componentDidMount(){
