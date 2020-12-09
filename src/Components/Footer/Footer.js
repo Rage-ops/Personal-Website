@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaGithub,  FaLinkedinIn} from 'react-icons/fa';
+import {FaGithub,  FaLinkedinIn, FaDev} from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
@@ -14,9 +14,9 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/harshavardhan-samudrala/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedinIn className="data contact-icons"/>
                     </a>
-                    {/* <a href="https://dev.to/rageops" target="_blank" rel="noopener noreferrer">
+                    <a href="https://dev.to/rageops" target="_blank" rel="noopener noreferrer">
                         <FaDev className="data contact-icons"/>
-                    </a> */}
+                    </a>
                 </div>
             </div>
         </footer>
