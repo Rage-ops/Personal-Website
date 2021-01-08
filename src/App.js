@@ -1,54 +1,42 @@
-import React, { Component } from 'react';
-import Navigation from './Components/Navigation/Navigation';
-import Footer from './Components/Footer/Footer';
-import Home from './Components/Home/Home';
-import About from './Components/About/About';
-import Projects from './Components/Projects/Projects';
-// import Blog from './Components/Blog/Blog';
+import React, { useState, useCallback } from 'react';
+import Navigation from './Components/Navigation/Navigation.jsx';
+import Footer from './Components/Footer/Footer.jsx';
+import Home from './Components/Home/Home.jsx';
+import About from './Components/About/About.jsx';
+import ProjectList from './Components/Projects/ProjectList.jsx';
 import {
-  BrowserRouter as Router,
-  Route,
+    BrowserRouter as Router,
+    Route,
 } from "react-router-dom";
 
 
-class App extends Component{
-  
-  constructor(){
-    super();
-    this.state = {
-      currWindow : ""
-    }
-  }
+const App = () => {
+    const [window, setWindow] = useState('Home');
 
-  onWindowChange = (to) => {
-    this.setState({ currWindow: to });
-  }
+    const handleWindowChange = useCallback((curr) => {
+        setWindow(curr);
+    }, [])
 
-  render(){
+    console.log("render")
     return (
-      <Router>
-        <div>
-            <Navigation navitems={["HOME", "ABOUT", "PROJECTS", "CONTACT"]} active={ this.state.currWindow }/>
-            <Route exact path="/ABOUT">
-              <About onWindowChange={ this.onWindowChange }/>
-            </Route>
+        <Router>
+            <Navigation navItems={["Home", "About", "Projects", "Contact"]}
+                window={window}/>
             <Route exact path="/">
-              <Home onWindowChange={ this.onWindowChange }/>
+                <Home handleWindowChange={handleWindowChange}/>
             </Route>
-            <Route exact path="/HOME">
-              <Home onWindowChange={ this.onWindowChange }/>
+            <Route exact path="/Home">
+                <Home handleWindowChange={handleWindowChange}/>
             </Route>
-            <Route exact path="/PROJECTS">
-              <Projects onWindowChange={ this.onWindowChange }/>
+            <Route exact path="/About">
+                <About handleWindowChange={handleWindowChange}/>
             </Route>
-            {/* <Route exact path="/BLOG">
-              <Blog onWindowChange={ this.onWindowChange }/>
-            </Route> */}
+            <Route exact path="/Projects">
+                <ProjectList handleWindowChange={handleWindowChange}/>
+            </Route>
             <Footer />
-        </div>
-      </Router>
-    ); 
-  }
+        </Router>
+    );
 }
 
 export default App;
