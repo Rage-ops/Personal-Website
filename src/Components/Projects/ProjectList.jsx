@@ -1,15 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import projects from "./Projects";
 import "./ProjectList.css";
 
-const ProjectList = ({ handleWindowChange }) => {
-    useEffect(() => {
-        handleWindowChange('Projects');
-        return (() => {
-            handleWindowChange('');
-        })
-    }, [handleWindowChange])
+const ProjectList = () => {
     return (
         <div className="Projects">
             {projects.map((project) => {

@@ -1,14 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Button from "../Button/Button";
 import "./Home.css";
 
-const Home = ({ handleWindowChange }) => {
-    useEffect(() => {
-        handleWindowChange('Home');
-        return (() => {
-            handleWindowChange('');
-        })
-    }, [handleWindowChange])
+const Home = () => {
     return (
         <div className="header">
             <h1 className="header-txt">

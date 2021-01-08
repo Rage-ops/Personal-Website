@@ -1,14 +1,15 @@
 import React from "react";
 import Button from "../Button/Button";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Navigation.css";
 
-const Navigation = ({ navItems, window }) => {
+const Navigation = ({ navItems }) => {
+    const path = useLocation().pathname.slice(1) || 'Home';
     return (
         <nav className="navbar">
             <ul className="nav-content">
-                {navItems.map((value, index) => {
-                    return value === "Contact" ? (
+                {navItems.map((item, index) => {
+                    return item === "Contact" ? (
                         <li className="nav-btn" key={index}>
                             <Button
                                 link={`mailto:harsha.sam23@gmail.com`}
@@ -19,13 +20,13 @@ const Navigation = ({ navItems, window }) => {
                         :
                         (<li
                             key={index}
-                            className={`nav-item ${value === window && "nav-item-active"}`}
+                            className={`nav-item ${item === path && 'nav-item-active'}`}
                         >
                             <Link
-                                to={value}
+                                to={item}
                                 className="nav-link"
                             >
-                                {value.toUpperCase()}
+                                {item.toUpperCase()}
                             </Link>
                         </li>
                         );

@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React from 'react';
 import Navigation from './Components/Navigation/Navigation.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 import Home from './Components/Home/Home.jsx';
@@ -11,27 +11,20 @@ import {
 
 
 const App = () => {
-    const [window, setWindow] = useState('Home');
-
-    const handleWindowChange = useCallback((curr) => {
-        setWindow(curr);
-    }, [])
-
     return (
         <Router>
-            <Navigation navItems={["Home", "About", "Projects", "Contact"]}
-                window={window}/>
+            <Navigation navItems={["Home", "About", "Projects", "Contact"]}/>
             <Route exact path="/">
-                <Home handleWindowChange={handleWindowChange}/>
+                <Home />
             </Route>
             <Route exact path="/Home">
-                <Home handleWindowChange={handleWindowChange}/>
+                <Home />
             </Route>
             <Route exact path="/About">
-                <About handleWindowChange={handleWindowChange}/>
+                <About />
             </Route>
             <Route exact path="/Projects">
-                <ProjectList handleWindowChange={handleWindowChange}/>
+                <ProjectList />
             </Route>
             <Footer />
         </Router>
