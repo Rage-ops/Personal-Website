@@ -5,6 +5,9 @@ import "./Home.css";
 const Home = ({ handleWindowChange }) => {
     useEffect(() => {
         handleWindowChange('Home');
+        return (() => {
+            handleWindowChange('');
+        })
     }, [handleWindowChange])
     return (
         <div className="header">

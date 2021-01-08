@@ -29,7 +29,7 @@ const projects = [
     },
     {
         id: 4,
-        title: "Tic-Tac-Toe A.I 🆇🅾️",
+        title: "Tic-Tac-Toe A.I 🆇🅾",
         info: `Implemented an AI which can't be defeated in Tic-Tac-Toe.`,
         link: "https://trinket.io/pygame/712948d483", 
         linkType: "Play Here ↗"

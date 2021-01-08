@@ -14,6 +14,9 @@ When I'm not coding, you'll find me browsing or spending time with family.`;
 const About = ({ handleWindowChange }) => {
     useEffect(() => {
         handleWindowChange("About");
+        return (() => {
+            handleWindowChange('');
+        })
     }, [handleWindowChange]);
     return (
         <div className="About">

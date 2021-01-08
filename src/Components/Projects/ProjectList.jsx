@@ -6,6 +6,9 @@ import "./ProjectList.css";
 const ProjectList = ({ handleWindowChange }) => {
     useEffect(() => {
         handleWindowChange('Projects');
+        return (() => {
+            handleWindowChange('');
+        })
     }, [handleWindowChange])
     return (
         <div className="Projects">
