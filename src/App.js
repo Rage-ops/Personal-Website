@@ -17,7 +17,6 @@ const App = () => {
         setWindow(curr);
     }, [])
 
-    console.log("render")
     return (
         <Router>
             <Navigation navItems={["Home", "About", "Projects", "Contact"]}
