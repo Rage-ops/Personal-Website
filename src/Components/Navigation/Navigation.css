@@ -14,14 +14,13 @@
 }
 
 .nav-item{
-    padding-bottom: 5px;
-    padding-left: 0;
+    padding: 5px 0;
     list-style-type: none;
     position: relative;
 }
 
 .nav-btn{
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
     padding-left: 0;
     list-style-type: none;
 }
