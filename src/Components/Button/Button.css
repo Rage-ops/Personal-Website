@@ -40,13 +40,3 @@
         font-size: 10px;
     }
 }
-@media screen and (max-width: 360px){
-    .btn{
-        font-size: 8px;
-    }
-}
-@media screen and (max-width: 300px){
-    .btn{
-        font-size: 6px;
-    }
-}
