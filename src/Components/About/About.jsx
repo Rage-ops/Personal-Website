@@ -16,11 +16,10 @@ const About = () => {
         <div className="About">
             <img src={myimg} alt="harsha's profile pic" className="about-img" />
             <div className="About-text">
-                <ProjectCard
-                    title={"About"}
-                    info={aboutMe}
-                    btntxt={"Check Work ↗"}
-                    btnlink="/projects"
+                <ProjectCard title={"About"}
+                info={aboutMe}
+                btntxt={"Check Work ↗"}
+                btnlink = "/Projects"
                 />
             </div>
         </div>
