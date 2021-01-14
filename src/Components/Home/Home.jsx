@@ -8,7 +8,7 @@ const Home = () => {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        fetch("https://dev.to/api/articles?username=rageops")
+        fetch("https://dev.to/api/articles?username=harsha")
             .then(response => response.json())
             .then(data => {
                 setPosts(data)

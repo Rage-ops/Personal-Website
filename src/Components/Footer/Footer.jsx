@@ -8,13 +8,13 @@ const Footer = () => {
             <div className="footer">
                 <p className="data">© 2020 Harsha</p>
                 <div className="icons">
-                    <a href="https://github.com/Rage-ops" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/harsha-sam" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="contact-icons data" />
                     </a>
                     <a href="https://www.linkedin.com/in/harshavardhan-samudrala/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedinIn className="data contact-icons" />
                     </a>
-                    <a href="https://dev.to/rageops" target="_blank" rel="noopener noreferrer">
+                    <a href="https://dev.to/harsha" target="_blank" rel="noopener noreferrer">
                         <FaDev className="data contact-icons" />
                     </a>
                 </div>

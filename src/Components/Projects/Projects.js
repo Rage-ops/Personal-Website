@@ -7,7 +7,7 @@ const projects = [
         allowing users to keep track of number of images they've checked.
         Front-end built using React, back-end server built using Node js \
         with Express and PostgreSQL is used for database system.`,
-        link: "https://rage-ops.github.io/smart-brain/", 
+        link: "https://harsha-sam.github.io/smart-brain/", 
         linkType: "Visit live site ↗"
     },
     {
@@ -15,7 +15,7 @@ const projects = [
         title: "Chess A.I 🤖",
         info: `Implemented an AI which plays chess optimally \
         using Minimax algorithm and Alpha-beta pruning for optimization.`,
-        link: "https://github.com/Rage-ops/Chess-AI", 
+        link: "https://github.com/harsha-sam/Chess-AI", 
         linkType: "View code here ↗"
     },
     {
@@ -24,7 +24,7 @@ const projects = [
         info: `A to-do command line app which helps you to \
         add, delete, mark to-dos and check the latest tally report \
         of pending and completed to-dos till date.`,
-        link: "https://github.com/Rage-ops/to-do-cli", 
+        link: "https://github.com/harsha-sam/to-do-cli", 
         linkType: "View code here ↗"
     },
     {
