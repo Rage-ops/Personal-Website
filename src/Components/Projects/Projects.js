@@ -1,15 +1,16 @@
 const projects = [
-    // {
-    //     id: 1,
-    //     title: "Smart-Brain 🧠",
-    //     info: `Full-stack web app that uses clarifai api to detect faces in the URL provided images.\
-    //     \n Registration and Sign in functionality are provided, \
-    //     allowing users to keep track of number of images they've checked.
-    //     Front-end built using React, back-end server built using Node js \
-    //     with Express and PostgreSQL is used for database system.`,
-    //     link: "https://harsha-sam.github.io/smart-brain/", 
-    //     linkType: "Visit live site ↗"
-    // },
+    {
+        id: 1,
+        title: "Assess-Board 📝",
+        info: `Full-stack web app that uses React.js for Front-end with Node.js and Express.js for back-end \
+        MongoDB is used for database system. \n Registration and Sign in functionality are provided. \
+        \n A user can either register as a faculty or a student. \
+        \n Faculty can schedule quizzes for specific deaprtments, class and section students. \
+        \n Students can log in and take the assessments available for them. \
+        \n Evaluation is done at the same time and score is displayed`,
+        link: "https://assessboard.netlify.app/", 
+        linkType: "Visit live site ↗"
+    },
     {
         id: 2,
         title: "Chess A.I 🤖",
