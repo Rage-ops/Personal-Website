@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer">
-                <p className="data">© 2020 Harsha</p>
+                <p className="data">© 2021 Harsha</p>
                 <div className="icons">
                     <a href="https://github.com/harsha-sam" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="contact-icons data" />
