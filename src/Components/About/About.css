@@ -1,30 +1,16 @@
-.About{
-    margin: 10% 0 15%;
-    padding-left: 13%;
-    padding-right: 13%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+.About {
+  margin: 10% 0 15%;
+  padding-left: 13%;
+  padding-right: 13%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.About-text{
-    margin-top: 10%;
-    text-align: justify;
+.About-text {
+  margin-top: 10%;
+  text-align: justify;
 }
-.about-img{
-    padding: 0 25%;
-    width: 50%;
-}
-@media screen and (max-width: 992px){
-    .about-img{
-        padding: 0 24%;
-        width: 55%;
-    }
-
-}
-@media screen and (max-width: 700px){
-    .about-img{
-        padding: 0 22%;
-        width: 60%;
-    }
+.about-img {
+  margin: auto;
+  width: 50%;
 }

@@ -1,59 +1,59 @@
-footer{
-    background-color: #0a0b0b;
-    padding: 3px;
-    margin-bottom: 0;
+footer {
+  background-color: #0a0b0b;
+  padding: 3px;
+  margin-bottom: 0;
 }
-.footer{
-    padding-left: 13%;
-    padding-right: 13%;
-    display: flex;
-    justify-content: space-between;
+.footer {
+  padding-left: 13%;
+  padding-right: 13%;
+  display: flex;
+  justify-content: space-between;
 }
-.data{
-    color: #fff;
-    opacity: .8;
-    padding: 5px;
+.data {
+  color: #fff;
+  opacity: 0.8;
+  padding: 5px;
 }
-.icons{
-    padding: 10px;
-    padding-right: 0;
+.icons {
+  padding: 10px;
+  padding-right: 0;
 }
-.contact-icons{
-    font-size: 1.6rem;
-    margin-right: 20px;
+.contact-icons {
+  font-size: 1.6rem;
+  margin-right: 20px;
 }
-.contact-icons:hover{
-    color:#8f8f8f;
+.contact-icons:hover {
+  color: #8f8f8f;
 }
-@media screen and (max-width: 992px){
-    .data{
-        font-size: 14px;
-    }
-    .contact-icons{
-        font-size: 1.3rem;
-    }
+@media screen and (max-width: 992px) {
+  .data {
+    font-size: 14px;
+  }
+  .contact-icons {
+    font-size: 1.3rem;
+  }
 }
-@media screen and (max-width: 700px){
-    .data{
-        font-size: 12px;
-    }
-    .contact-icons{
-        font-size: 1.2rem;
-    }
+@media screen and (max-width: 700px) {
+  .data {
+    font-size: 12px;
+  }
+  .contact-icons {
+    font-size: 1.2rem;
+  }
 }
-@media screen and (max-width: 360px){
-    .data{
-        font-size: 10px;
-    }
-    .contact-icons{
-        font-size: 1.1rem;
-    }
+@media screen and (max-width: 360px) {
+  .data {
+    font-size: 10px;
+  }
+  .contact-icons {
+    font-size: 1.1rem;
+  }
 }
-@media screen and (max-width: 300px){
-    .data{
-        font-size: 8px;
-    }
-    .contact-icons{
-        font-size: 0.9rem;
-    }
+@media screen and (max-width: 300px) {
+  .data {
+    font-size: 8px;
+  }
+  .contact-icons {
+    font-size: 0.9rem;
+  }
 }

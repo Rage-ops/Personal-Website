@@ -12,17 +12,18 @@ I'm curious about almost everything 😅. \
 When I'm not coding, you'll find me browsing or spending time with family.`;
 
 const About = () => {
-    return (
-        <div className="About">
-            <img src={myimg} alt="harsha's profile pic" className="about-img" />
-            <div className="About-text">
-                <ProjectCard title={"About"}
-                info={aboutMe}
-                btntxt={"Check Work ↗"}
-                btnlink = "/Projects"
-                />
-            </div>
-        </div>
-    );
+  return (
+    <div className="About">
+      <img src={myimg} alt="harsha's profile pic" className="about-img" />
+      <div className="About-text">
+        <ProjectCard
+          title={"About"}
+          info={aboutMe}
+          btntxt={"Check Work ↗"}
+          btnlink="/projects"
+        />
+      </div>
+    </div>
+  );
 };
 export default About;

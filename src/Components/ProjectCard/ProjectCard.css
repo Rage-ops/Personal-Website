@@ -1,47 +1,47 @@
-.projectcard{
-    padding: 20px;
-    background: #1A1A1A;
-    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.05);
-    border-radius: 25px;
+.projectcard {
+  padding: 20px;
+  background: #1a1a1a;
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  border-radius: 25px;
 }
-.projectcard p{
-    color: #8f8f8f;
-    margin-bottom: 20px;
-    text-align: justify;
+.projectcard p {
+  color: #8f8f8f;
+  margin-bottom: 20px;
+  text-align: justify;
 }
-.projectcard button{
-    background-color: #272727;
-    border: solid 2px #272727;
-    border-radius: 20px;
-    margin-top: 20px;
-    color: #fff;
-    width: 100%;
-    padding: 20px;
-    line-height: 6px;
-    letter-spacing: 1px;
-    font-family: "league-spartan";
+.projectcard button {
+  background-color: #272727;
+  border: solid 2px #272727;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+  line-height: 6px;
+  letter-spacing: 1px;
+  font-family: "league-spartan";
 }
-.projectcard button:hover{
-    background-color: #fff;
-    color: #272727;    
+.projectcard button:hover {
+  background-color: #fff;
+  color: #272727;
 }
-.projectcard button:focus{
-    outline: 0;
+.projectcard button:focus {
+  outline: 0;
 }
-@media screen and (max-width: 992px){
-    .projectcard p{
-        font-size: 14px;
-    }
-    .projectcard button{
-        font-size: 14px;
-    }
+@media screen and (max-width: 992px) {
+  .projectcard p {
+    font-size: 14px;
+  }
+  .projectcard button {
+    font-size: 14px;
+  }
 }
-@media screen and (max-width: 700px){
-    .projectcard p{
-        font-size: 12px;
-    }
-    .projectcard button{
-        font-size: 12px;
-    }
+@media screen and (max-width: 700px) {
+  .projectcard p {
+    font-size: 12px;
+  }
+  .projectcard button {
+    font-size: 12px;
+  }
 }

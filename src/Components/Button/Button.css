@@ -1,42 +1,41 @@
-.btn{
-    padding: 12px 10px 10px;
-    border: solid 1px #343a40;
-    margin-right: 15px;
-    font-size: 18px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    border-radius: 20px;
+.btn {
+  padding: 12px 10px 10px;
+  border: solid 1px #343a40;
+  margin-right: 15px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border-radius: 20px;
 }
-.btn-dark{
-    background-color: #343a40;
-    color: #fff;
+.btn-dark {
+  background-color: #343a40;
+  color: #fff;
 }
-.btn-white{
-    background-color:#fff;
-    color: #343a40;
+.btn-white {
+  background-color: #fff;
+  color: #343a40;
 }
-.btn:hover{
-    color: #fff;
-    background-color: #1a1c20;
+.btn:hover {
+  color: #fff;
+  background-color: #1a1c20;
 }
-@media screen and (max-width: 992px){
-    .btn{
-        font-size: 16px;
-    }
-
+@media screen and (max-width: 992px) {
+  .btn {
+    font-size: 16px;
+  }
 }
-@media screen and (max-width: 768px){
-    .btn{
-        font-size: 14px;
-    }
+@media screen and (max-width: 768px) {
+  .btn {
+    font-size: 14px;
+  }
 }
-@media screen and (max-width: 700px){
-    .btn{
-        font-size: 12px;
-    }
+@media screen and (max-width: 700px) {
+  .btn {
+    font-size: 12px;
+  }
 }
-@media screen and (max-width: 448px){
-    .btn{
-        font-size: 10px;
-    }
+@media screen and (max-width: 448px) {
+  .btn {
+    font-size: 10px;
+  }
 }

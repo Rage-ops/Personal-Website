@@ -1,83 +1,83 @@
-.header{
-   padding: 13%;
-   padding-bottom: 2%;
+.header {
+  padding: 13%;
+  padding-bottom: 2%;
 }
-.header-txt{
-    margin-bottom: 5px;
-    font-size: 4.2rem;
+.header-txt {
+  margin-bottom: 5px;
+  font-size: 4.2rem;
 }
-.header-description{
-    margin: 0;
-    margin-bottom: 50px;
-    font-size: 1.1rem;
-    font-weight: 200;
-    color: #8f8f8f
+.header-description {
+  margin: 0;
+  margin-bottom: 50px;
+  font-size: 1.1rem;
+  font-weight: 200;
+  color: #8f8f8f;
 }
-.home-btn{
-    margin-right: 15px;
+.home-btn {
+  margin-right: 15px;
 }
 /* Handwave */
 .wave {
-    animation-name: wave-animation;
-    /* Refers to the name of your @keyframes element below */
-    animation-duration: 2.5s;
-    /* Change to speed up or slow down */
-    animation-iteration-count: infinite;  
-    transform-origin: 70% 70%;
-    /* Pivot around the bottom-left palm */
-    display: inline-block;
+  animation-name: wave-animation;
+  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;
+  /* Change to speed up or slow down */
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  /* Pivot around the bottom-left palm */
+  display: inline-block;
 }
 
 @keyframes wave-animation {
-    0% {
-        transform: rotate(0.0deg)
-    }
+  0% {
+    transform: rotate(0deg);
+  }
 
-    10% {
-        transform: rotate(14.0deg)
-    }
+  10% {
+    transform: rotate(14deg);
+  }
 
-    /* The following five values can be played with to make the waving more or less extreme */
-    20% {
-        transform: rotate(-8.0deg)
-    }
+  /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
 
-    30% {
-        transform: rotate(14.0deg)
-    }
+  30% {
+    transform: rotate(14deg);
+  }
 
-    40% {
-        transform: rotate(-4.0deg)
-    }
+  40% {
+    transform: rotate(-4deg);
+  }
 
-    50% {
-        transform: rotate(10.0deg)
-    }
+  50% {
+    transform: rotate(10deg);
+  }
 
-    60% {
-        transform: rotate(0.0deg)
-    }
+  60% {
+    transform: rotate(0deg);
+  }
 
-    /* Reset for the last half to pause */
-    100% {
-        transform: rotate(0.0deg)
-    }
+  /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
 }
-@media screen and (max-width: 768px){
-    .header-txt{
-        font-size: 3.2rem;
-    }
-    .header-description{
-        font-size: 0.9rem;
-        margin-bottom: 42px;
-    }
+@media screen and (max-width: 768px) {
+  .header-txt {
+    font-size: 3.2rem;
+  }
+  .header-description {
+    font-size: 0.9rem;
+    margin-bottom: 42px;
+  }
 }
-@media screen and (max-width: 500px){
-    .header-txt{
-        font-size: 1.9rem;
-    }
-    .header-description{
-        font-size: 0.8rem;
-        margin-bottom: 40px;
-    }
+@media screen and (max-width: 500px) {
+  .header-txt {
+    font-size: 1.9rem;
+  }
+  .header-description {
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+  }
 }

@@ -1,27 +1,26 @@
-.Projects{
-    margin: 13% 0 13%;
-    padding-left: 13%;
-    padding-right: 13%;
+.Projects {
+  margin: 13% 0 13%;
+  padding-left: 13%;
+  padding-right: 13%;
 }
-.mb{
-    margin-bottom: 8%;
+.mb {
+  margin-bottom: 8%;
 }
-@media screen and (max-width: 992px){
-    .About-text{
-        font-size: 14px;
-    }
-    .about-img{
-        padding: 0 24%;
-        width: 55%;
-    }
-
+@media screen and (max-width: 992px) {
+  .About-text {
+    font-size: 14px;
+  }
+  .about-img {
+    padding: 0 24%;
+    width: 55%;
+  }
 }
-@media screen and (max-width: 700px){
-    .About-text{
-        font-size: 12px;
-    }
-    .about-img{
-        padding: 0 22%;
-        width: 60%;
-    }
+@media screen and (max-width: 700px) {
+  .About-text {
+    font-size: 12px;
+  }
+  .about-img {
+    padding: 0 22%;
+    width: 60%;
+  }
 }

@@ -1,31 +1,31 @@
-a{
-    text-decoration: none;
-    color: #fff;
+a {
+  text-decoration: none;
+  color: #fff;
 }
-.blog-container{
-    padding: 10% 13%;
+.blog-container {
+  padding: 10% 13%;
 }
-.posts-container{
-    display: flex;
-    flex-flow: row wrap;
-    position: relative;
+.posts-container {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
 }
-.projectcard{
-    margin: 25px;
-    margin-left: 0;
+.projectcard {
+  margin: 25px;
+  margin-left: 0;
 }
-.flex-container{
-    display: flex;
-    justify-content: flex-start;
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
 }
-.post-header{
-    justify-content: space-between;
+.post-header {
+  justify-content: space-between;
 }
-.post-header h4{
-    color: gray;
+.post-header h4 {
+  color: gray;
 }
-.tag-item{
-    margin: 0;
-    margin-right: 4px;
-    color: gray;
+.tag-item {
+  margin: 0;
+  margin-right: 4px;
+  color: gray;
 }
