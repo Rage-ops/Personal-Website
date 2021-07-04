@@ -4,7 +4,7 @@ import "./About.css";
 import myimg from "./myimg.png";
 
 const aboutMe = `Hi, I'm Harsha.
-I'm a Computer Science undergraduate and a 19 year old programmer \
+I'm a Computer Science undergraduate and a ${new Date().getFullYear() - 2001} year old programmer \
 aspiring to become a full-stack developer.
 I enjoy and always strive to write efficient and optimized computer programs \
 using necessary data structures and algorithms.
