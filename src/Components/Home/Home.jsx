@@ -27,7 +27,7 @@ const Home = () => {
         </h2>
         <span className="home-btn">
           <Button
-            link={"about"}
+            link={"/about"}
             btnData={"Know more ↗"}
             btnColor={"btn-dark"}
           />

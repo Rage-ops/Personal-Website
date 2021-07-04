@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./ProjectCard.css";
 
 const ProjectCard = ({ title, info, btntxt, btnlink }) => {
@@ -12,9 +13,15 @@ const ProjectCard = ({ title, info, btntxt, btnlink }) => {
           </p>
         );
       })}
-      <a href={btnlink} role="button">
-        <button>{btntxt}</button>
-      </a>
+      {btnlink.startsWith("/") ? (
+        <Link to={btnlink}>
+          <button>{btntxt}</button>
+        </Link>
+      ) : (
+        <a href={btnlink} role="button">
+          <button>{btntxt}</button>
+        </a>
+      )}
     </div>
   );
 };
