@@ -12,6 +12,8 @@ function Blog({ isLoading, posts }) {
   }
   return (
     <div className="blog-container">
+      <h1>Blogs</h1>
+      <hr />
       <div className="posts-container">
         {posts.map((post) => {
           const {

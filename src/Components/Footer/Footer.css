@@ -2,6 +2,9 @@ footer {
   background-color: #0a0b0b;
   padding: 3px;
   margin-bottom: 0;
+  position: sticky;
+  bottom: 0;
+  z-index: 999;
 }
 .footer {
   padding-left: 13%;

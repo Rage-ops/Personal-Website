@@ -5,6 +5,10 @@ a {
 .blog-container {
   padding: 10% 13%;
 }
+hr {
+  width: 30%;
+  margin: auto 0;
+}
 .posts-container {
   display: flex;
   flex-flow: row wrap;
