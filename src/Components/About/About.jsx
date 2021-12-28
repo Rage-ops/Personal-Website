@@ -8,7 +8,7 @@ I'm a Computer Science undergraduate and a ${new Date().getFullYear() - 2001} ye
 aspiring to become a full-stack developer.
 I enjoy and always strive to write efficient and optimized computer programs \
 using necessary data structures and algorithms.
-I'm curious about almost everything 😅. \
+I'm curious about almost everything. \
 When I'm not coding, you'll find me browsing or spending time with family.`;
 
 const About = () => {

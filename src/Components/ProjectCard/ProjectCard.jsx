@@ -2,14 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./ProjectCard.css";
 
-const ProjectCard = ({ title, info, btntxt, btnlink }) => {
+const ProjectCard = ({ title, tags, info, btntxt, btnlink }) => {
   return (
     <div className="projectcard">
       <h2>{title}</h2>
+      <div className="flex-container">
+        {tags?.map((tag, index) => {
+          return <h4 className="tag-item" key={index}>{`#${tag}`}</h4>;
+        })}
+      </div>
       {info.split("\n").map((line, index) => {
         return (
           <p key={index} className="code">
-            {line}
+           {line}
           </p>
         );
       })}
