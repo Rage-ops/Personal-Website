@@ -1,5 +1,5 @@
 .About {
-  margin: 10% 0 15%;
+  margin: 10% 0 10%;
   padding-left: 13%;
   padding-right: 13%;
   display: flex;
@@ -7,10 +7,10 @@
   justify-content: center;
 }
 .About-text {
-  margin-top: 10%;
+  margin-top: 5%;
   text-align: justify;
 }
 .about-img {
   margin: auto;
-  width: 50%;
+  width: 30%;
 }
