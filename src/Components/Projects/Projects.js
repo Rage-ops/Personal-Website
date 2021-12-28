@@ -11,7 +11,7 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Spotify Clone 🎵 ',
+    title: 'Spotify Clone',
     tags: ["React JS with Context API", "Node JS", "Express JS"],
     info: `Developed a web music app built on Spotify’s Web API & Genius Lyrics API, implemented with React JS as the front-end, combined with Node JS and Express JS performing as the back-end to handle the authentication of the app, and to fetch lyrics of the playing track.
     Features Available: View new releases, albums, user playlists, Search for songs/albums, Play a track, View lyrics of the current playing track, and Like a track.
@@ -22,11 +22,11 @@ const projects = [
   },
   {
     id: 3,
-    title: "Assess-Board 📝",
+    title: "Assess-Board",
     tags: ["React JS", "Node JS", "Express JS", "MongoDB", "Mongoose ODM"],
-    info: `Built a Full Stack Web Application, a platform to conduct assessments for students \
-    \n Faculty must choose specific classes of students for whom the assessment is. The application makes sure the access to that assessment is for only those sets of students. \
-    \n The faculty should prepare the questionnaire and schedule the assessment’s commencing and ending date and time. The quiz will be available and end at the scheduled times without delay as this process is \ entirely automated.,
+    info: `Built a Full Stack Web Application, a platform to conduct assessments for students.
+    \n Faculty must choose specific classes of students for whom the assessment is. The application makes sure the access to that assessment is for only those sets of students.
+    \n The faculty should prepare the questionnaire and schedule the assessment’s commencing and ending date and time. The quiz will be available and end at the scheduled times without delay as this process is entirely automated.,
     Frontend Repo: https://github.com/harsha-sam/React-Quiz-App,
     Backend Repo: https://github.com/harsha-sam/Quiz-API`,
     link: "https://assessboard.netlify.app/",
@@ -34,9 +34,9 @@ const projects = [
   },
   {
     id: 4,
-    title: "Chess A.I 🤖",
+    title: "Chess A.I",
     tags: ["Python3", "Minimax Algorithm", "Alpha-Beta pruning"],
-    info: `Implemented an AI which plays chess optimally using Minimax Algorithm and is almost impossible to \ defeat. \n Optimized the AI by reducing the time taken for each move by using Alpha-Beta pruning.`,
+    info: `Implemented an AI which plays chess optimally using Minimax Algorithm and is almost impossible to defeat. \n Optimized the AI by reducing the time taken for each move by using Alpha-Beta pruning.`,
     link: "https://github.com/harsha-sam/Chess-AI",
     linkType: "View code here ↗"
   },
@@ -53,9 +53,9 @@ const projects = [
     id: 6,
     title: "To-Do CLI ✓",
     tags: ["Python3"],
-    info: `A to-do command line app which helps you to \
-        add, delete, mark to-dos and check the latest tally report \
-        of pending and completed to-dos till date.`,
+    info: `A to-do command line app which helps you to
+    add, delete, mark to-dos and check the latest tally report
+    of pending and completed to-dos till date.`,
     link: "https://github.com/harsha-sam/to-do-cli",
     linkType: "View code here ↗"
   },
