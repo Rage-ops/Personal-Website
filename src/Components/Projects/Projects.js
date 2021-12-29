@@ -6,7 +6,7 @@ const projects = [
     info: `Designed and developed a platform from scratch in three weeks: Engage Board helps in creating and managing virtual classroom communities for a university with an array of extra features and add- ons that enrich the discussions and makes the collaboration smooth.
     Features Available: Classroom spaces for discussions (instant messaging) along with profanity check, Private Chats, Create and Share Notes, Accessibility for Dyslexic users.
     Documentation & Repo: https://github.com/harsha-sam/Engage-Board`,
-    link: '',
+    link: 'https://engage-board-frontend.herokuapp.com/',
     linkType: "Visit live site ↗"
   },
   {
@@ -17,8 +17,8 @@ const projects = [
     Features Available: View new releases, albums, user playlists, Search for songs/albums, Play a track, View lyrics of the current playing track, and Like a track.
     Frontend Repo: https://github.com/harsha-sam/Music-App-Frontend/,
     Backend Repo: https://github.com/harsha-sam/Web-Music-API`,
-    link: 'https://github.com/harsha-sam/Music-App-Frontend/',
-    linkType: "View code here ↗"
+    link: "https://webmusix.netlify.app/",
+    linkType: "Visit live site ↗"
   },
   {
     id: 3,
