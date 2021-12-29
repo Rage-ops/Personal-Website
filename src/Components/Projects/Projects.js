@@ -15,7 +15,7 @@ const projects = [
     tags: ["React JS with Context API", "Node JS", "Express JS", "Libs: spotify-web-api-node, react-spotify-web-playback"],
     info: `Developed a web music app built on Spotify’s Web API & Genius Lyrics API, implemented with React JS as the front-end, combined with Node JS and Express JS performing as the back-end to handle the authentication of the app, and to fetch lyrics of the playing track.
     Features Available: View new releases, albums, user playlists, Search for songs/albums, Play a track, View lyrics of the current playing track, and Like a track.
-    Frontend Repo: https://github.com/harsha-sam/Music-App-Frontend/,
+    Frontend Repo: https://github.com/harsha-sam/Music-App-Frontend/
     Backend Repo: https://github.com/harsha-sam/Web-Music-API`,
     link: "https://webmusix.netlify.app/",
     linkType: "Visit live site ↗"
@@ -27,7 +27,7 @@ const projects = [
     info: `Built a Full Stack Web Application, a platform to conduct assessments for students.
     \n Faculty must choose specific classes of students for whom the assessment is. The application makes sure the access to that assessment is for only those sets of students.
     \n The faculty should prepare the questionnaire and schedule the assessment’s commencing and ending date and time. The quiz will be available and end at the scheduled times without delay as this process is entirely automated.,
-    Frontend Repo: https://github.com/harsha-sam/React-Quiz-App,
+    Frontend Repo: https://github.com/harsha-sam/React-Quiz-App
     Backend Repo: https://github.com/harsha-sam/Quiz-API`,
     link: "https://assessboard.netlify.app/",
     linkType: "Visit live site ↗"
