@@ -12,7 +12,7 @@ const projects = [
   {
     id: 2,
     title: 'Spotify Clone',
-    tags: ["React JS with Context API", "Node JS", "Express JS"],
+    tags: ["React JS with Context API", "Node JS", "Express JS", "Libs: spotify-web-api-node, react-spotify-web-playback"],
     info: `Developed a web music app built on Spotify’s Web API & Genius Lyrics API, implemented with React JS as the front-end, combined with Node JS and Express JS performing as the back-end to handle the authentication of the app, and to fetch lyrics of the playing track.
     Features Available: View new releases, albums, user playlists, Search for songs/albums, Play a track, View lyrics of the current playing track, and Like a track.
     Frontend Repo: https://github.com/harsha-sam/Music-App-Frontend/,
